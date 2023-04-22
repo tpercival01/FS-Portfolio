@@ -149,10 +149,10 @@
       <p>Feel free to contact me regarding any questions or enquiries</p>
       <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
         <input type="hidden" name="access_key" value="132da05c-7836-4f9a-8ab6-1e032f25b25f">
-        <input type="text" id="name-input" placeholder="Your name" required="">
-        <input type="hidden" name="subject" value="Contact form submitted from portfolio"
-        <input type="text" id="email-input" placeholder="Your email" required="">
-        <textarea type="text" id="reason-input" placeholder="Message" required=""></textarea>
+        <input type="text" name="name" id="name-input" placeholder="Your name" required>
+        <input type="hidden" name="subject" value="Contact form submitted from portfolio">
+        <input type="text" name="email" id="email-input" placeholder="Your email" required>
+        <textarea type="text" name="message" id="reason-input" placeholder="Message" required></textarea>
         <input type="hidden" name="redirect" value="https://tpercival01.github.io/FS-Portfolio/success.html">
         <button type="submit">Send message</button>
       </form>
